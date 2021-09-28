@@ -13,6 +13,11 @@ public class NoQuarter implements State{
         System.out.println("Money $$\n");
     }
     public void removeQuarter(){
-        System.out.println("You can't remove a quarter when there isn't even one there\n");
+        System.out.println("You can't remove a quarter when there isn't even one there.\n");
     }
+
+    public void refill(){
+        System.out.println("You can't refill until the machine is empty.\n");
+    }
+
 }
